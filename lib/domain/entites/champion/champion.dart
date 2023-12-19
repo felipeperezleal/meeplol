@@ -1,6 +1,5 @@
 import 'champion_image.dart';
 import 'champion_info.dart';
-import 'champion_stats.dart';
 
 class Champion {
   final String version;
@@ -13,7 +12,7 @@ class Champion {
   final ChampionImage image;
   final List<String> tags;
   final String partype;
-  final ChampionStats stats;
+  final Map<String, double> stats;
 
   Champion({
     required this.version,

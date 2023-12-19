@@ -16,4 +16,5 @@ class ChampionImage {
     required this.w,
     required this.h,
   });
+  
 }

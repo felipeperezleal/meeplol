@@ -9,5 +9,10 @@ final appRouter = GoRouter(
       name: HomeScreen.name,
       builder: (context, state) => const HomeScreen(),
     ),
+    GoRoute(
+      path: '/champions',
+      name: ChampionsScreen.name,
+      builder: (context, state) => const ChampionsScreen(),
+    ),
   ],
 );
